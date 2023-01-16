@@ -8,7 +8,7 @@ import * as fs from "fs";
 //Step 2: Iterate through the and display them
 //Step 3:
 const Blog=(props) =>{
-  console.log(props)
+  // console.log(props)
   const [blogs, setBlogs] = useState(props.allBlogs);
   // useEffect(() => {
    
@@ -18,7 +18,7 @@ const Blog=(props) =>{
     <>
       <div className={styles.blogs} >
         {blogs.map((item) => {
-          console.log(item);
+          // console.log(item);
           return (
             <div className={styles.blogItem} key={item.slug}>
               <Link href={`/blogpost/${item.slug}`}>
