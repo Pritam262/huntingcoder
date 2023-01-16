@@ -24,7 +24,7 @@ const Blog=(props) =>{
               <Link href={`/blogpost/${item.slug}`}>
                 <h2 className={styles.heading2}>{item.title}</h2>
                 <p>
-                  {item.content.slice(0, 140)}.... <button>Read more</button>
+                  {item.metadesc.slice(0, 140)}.... <button>Read more</button>
                 </p>
               </Link>
             </div>
