@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Script from "next/script";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
+// import Script from "next/script";
+// import Image from "next/image";
+// import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 // import Navbar from '../components/navbar'
 
@@ -20,12 +20,14 @@ export default function Home() {
       {/* <Navbar/> */}
       <main className={styles.main}>
         <h1 className={styles.title}> Coding Hunter</h1>
-        <Image
+        {/* <Image
           className={styles.myImg}
           src="/coder.jpg"
           width={450}
           height={200}
-        />
+        /> */}
+        <img className={styles.myImg} src='/coder.jpg' alt="coding image" 
+        width={200} />
         <p className={styles.description}>
           A blog for the coders by a hunting coder
         </p>
