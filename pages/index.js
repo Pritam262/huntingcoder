@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       {/* <Navbar/> */}
       <main className={styles.main}>
-        <h1 className={styles.title}> Coding Hunter</h1>
+        <h1 className={styles.title}> &lt;Coding Hunter/&gt;</h1>
         {/* <Image
           className={styles.myImg}
           src="/coder.jpg"

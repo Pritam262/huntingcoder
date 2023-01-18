@@ -1,0 +1,12 @@
+.container{
+    margin: 100px auto;
+    max-width: 45vw;
+    /* margin: auto; */
+}
+.heading{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.mt-15{
+    margin: 15px 0;
+}
